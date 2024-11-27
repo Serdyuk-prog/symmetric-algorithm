@@ -1,0 +1,15 @@
+.radio-select-horizontal {
+  display: flex;
+  gap: 10px;
+}
+
+.radio-select-horizontal .radio-select-item {
+  display: flex;
+}
+
+.radio-select-vertical {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* text-align: left; */
+}
