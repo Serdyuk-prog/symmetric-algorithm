@@ -95,7 +95,7 @@ function App() {
 
   const [selectedAlgorithm, setSelectedAlgorithm] = useState("DES");
   const [selectedMode, setSelectedMode] = useState("ECB");
-  const [selectedPadding, setSelectedPadding] = useState("PKCS7");
+  const [selectedPadding, setSelectedPadding] = useState("Pkcs7");
 
   const [randomKey, setRandomKey] = useState("48656C6C6F4A6179");
   const [randomIV, setRandomIV] = useState("476F6F6462794A6F");
